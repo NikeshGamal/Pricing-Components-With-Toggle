@@ -36,6 +36,8 @@ body{
     border-radius: 0.74em;
     padding-bottom: 2em;
     max-width: 365px;
+    transition: transform 400ms linear;  
+}
 }
 
 
@@ -82,6 +84,50 @@ body{
     border-width: 0px;
     border-radius: 0.3em;
 }
+
+
+.btn:hover{
+    border: 1px solid hsl(233, 13%, 49%);
+    color:hsl(233, 13%, 49%);
+   background: hsl(240, 78%, 98%);
+}
+
+
+.btn:hover{
+    border: 1px solid hsl(233, 13%, 49%);
+    color:hsl(233, 13%, 49%);
+   background: hsl(240, 78%, 98%);
+}
+
+.middle_sub_cate{
+    background: linear-gradient(to right, hsl(236, 72%, 79%) ,hsl(237, 63%, 64%));
+    color: white;
+    transition: transform 400ms linear;  
+}
+
+.sub_cate:hover{
+    transform: scale(1.02);
+}
+  
+
+.middle_sub_cate .middle_btn{
+    border: 1px solid hsl(233, 13%, 49%);
+    color:hsl(233, 13%, 49%);
+   background: hsl(240, 78%, 98%);
+}
+
+.middle_sub_cate .middle_btn:hover{
+    
+    background-color: hsl(237, 63%, 64%);
+    color: white;
+    border: 1px solid white;
+}
+
+
+.middle_sub_cate .plan,.middle_sub_cate .plan_amt,.middle_sub_cate .service_details li,.middle_sub_cate .service_details .top_border,.middle_sub_cate .service_details .service{
+        color:  white;
+}
+
 
 @media screen and (min-width:655px) and (max-width:1030px){
  /* body{

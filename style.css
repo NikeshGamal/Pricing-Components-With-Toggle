@@ -44,7 +44,7 @@ body{
 .sub_cate .plan{
     /* border: 1px solid hotpink; */
     font-weight: 200;
-    font-size: 1.1rem;
+    font-size: 1.6em;
     color:  hsl(233, 13%, 49%);
     letter-spacing: 1px;
 }
@@ -126,6 +126,11 @@ body{
 
 .middle_sub_cate .plan,.middle_sub_cate .plan_amt,.middle_sub_cate .service_details li,.middle_sub_cate .service_details .top_border,.middle_sub_cate .service_details .service{
         color:  white;
+}
+
+.middle_sub_cate .plan{
+    /* border: 1px solid black; */
+    font-size: 1.6em;
 }
 
 

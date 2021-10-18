@@ -53,7 +53,7 @@ body{
     padding:0.4em 0rem;
     letter-spacing: 1px;
     color: hsl(225, 2%, 38%);
-    font-size:4.2rem;
+    font-size:3.4em;
 }
 
 .sub_cate .service_details li{
@@ -85,7 +85,7 @@ body{
     border-radius: 0.3em;
 }
 
-@media screen and (min-width:875px) and (max-width:1030px){
+@media screen and (min-width:760px) and (max-width:1030px){
  body{
      background-color: maroon;
  }
@@ -98,8 +98,7 @@ body{
     justify-content: center;
 }
 .categories .sub_cate{
-    width: 30%;
-    max-width: 295px;
+    width: 295px;
 }
 .categories .sub_cate .plan_amt{
     font-size: 2.4em;

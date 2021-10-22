@@ -1,4 +1,4 @@
-const togg= document.querySelector('.inner_container');
+const togg= document.querySelector('.outer_container');
 const values=document.querySelectorAll('.plan_amt');
 // function nextPlan(){
 //       togg.classList.toggle("active");

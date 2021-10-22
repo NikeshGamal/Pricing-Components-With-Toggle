@@ -220,7 +220,7 @@ body{
  }
  
  
- .active  .inner_container{
+ .toggleSection .active .inner_container{
      margin: 0px auto;
      position: absolute;
      top: 0;
